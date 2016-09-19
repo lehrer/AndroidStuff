@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/build/intermediates/res/merged/debug/menu/activity_main_drawer.xml",
+        "source": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/src/main/res/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/build/intermediates/res/merged/debug/menu/book_item_view_holder_toolbar_menu.xml",
+        "source": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/src/main/res/menu/book_item_view_holder_toolbar_menu.xml"
+    },
+    {
+        "merged": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/src/main/res/menu/main.xml"
+    }
+]

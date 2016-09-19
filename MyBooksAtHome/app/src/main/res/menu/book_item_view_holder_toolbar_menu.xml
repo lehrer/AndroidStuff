@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/menu_item_copy_to_db"
+    android:title="@string/copy_to_DB"
+    android:icon="@drawable/ic_save_black_24dp"></item>
+    <item android:id="@+id/menu_item_delete_from_db"
+          android:title="@string/delete_from_DB"
+          android:icon="@mipmap/ic_delete_from_db"></item>
+
+</menu>

@@ -1,0 +1,97 @@
+<android.support.v7.widget.CardView
+    android:id="@+id/cardViewBookConsiceOverView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="1dp"
+    app:cardElevation="@dimen/activity_vertical_margin"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--dit heb ik er uit gehaald
+    app:cardCornerRadius="@dimen/activity_vertical_margin"
+    -->
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/book_row_layout_card_toolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="top"
+        />
+
+    <RelativeLayout android:layout_toLeftOf="@id/book_row_layout_card_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="16dp"
+        >
+
+
+
+        <ImageView
+            android:id="@+id/book_imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/no_image_found_en"/>
+
+
+
+
+
+
+        <TextView android:id="@+id/textViewISBN"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:text="ISBN"
+                  android:textSize="11sp"
+                  android:layout_marginRight="16dp"
+                  android:layout_alignParentEnd="true"
+                  android:layout_alignParentRight="true"
+            />
+
+        <TextView
+            android:id="@+id/book_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@id/book_imageView"
+            android:layout_below="@id/textViewISBN"
+            android:text="@string/Title"
+            android:textSize="20sp"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/book_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/book_title"
+            android:layout_toRightOf="@id/book_imageView"
+            android:text="@string/author"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:id="@+id/book_short_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/book_author"
+            android:layout_toRightOf="@id/book_imageView"
+            android:text="@string/short_description"
+            android:textSize="11dp"/>
+
+
+
+
+
+    </RelativeLayout>
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

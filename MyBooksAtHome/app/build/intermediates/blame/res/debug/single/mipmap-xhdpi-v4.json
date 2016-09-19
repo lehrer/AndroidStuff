@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_launcher.png",
+        "source": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_google_zoeken_1.png",
+        "source": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/src/main/res/mipmap-xhdpi/ic_google_zoeken_1.png"
+    },
+    {
+        "merged": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_vergrootglas1.png",
+        "source": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/src/main/res/mipmap-xhdpi/ic_vergrootglas1.png"
+    },
+    {
+        "merged": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_delete_from_db.png",
+        "source": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/src/main/res/mipmap-xhdpi/ic_delete_from_db.png"
+    },
+    {
+        "merged": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_lades.png",
+        "source": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/src/main/res/mipmap-xhdpi/ic_lades.png"
+    },
+    {
+        "merged": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/build/intermediates/res/merged/debug/mipmap-xhdpi-v4/ic_plus.png",
+        "source": "/Users/gershonlehrer/Documents/AndroidTraining/Workspace01/MyBooksAtHome/app/src/main/res/mipmap-xhdpi/ic_plus.png"
+    }
+]

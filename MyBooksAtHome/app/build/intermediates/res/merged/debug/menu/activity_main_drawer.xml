@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_local_books"
+            android:icon="@mipmap/ic_lades"
+            android:title="@string/nav_all_books"/>
+
+        <item
+            android:id="@+id/nav_search_fragment"
+            android:icon="@mipmap/ic_google_zoeken_1"
+            android:title="@string/nav_search_page"/>
+
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_vergrootglas"
+            android:title="@string/nav_search_google_books_with_barcode_scanner"/>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send"/>
+        </menu>
+    </item>
+
+</menu>

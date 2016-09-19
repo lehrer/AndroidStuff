@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical"
+    >
+
+    <TextView
+        android:id="@+id/book_add_new_book_activity_layout_screen_textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/book_search_view_dialog_textView_string"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"/>
+
+<ImageButton
+        android:id="@+id/scan_add_book_layout_imageButtonimageButton"
+        android:layout_width="39dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/book_add_new_book_activity_layout_screen_textView"
+        android:background="@drawable/ic_view_headline_black_24dp"/>
+    <TextView
+        android:id="@+id/book_search_layout_results_found_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border_for_button_and_other_views"
+        android:textAlignment="center"
+        android:layout_toRightOf="@id/scan_add_book_layout_imageButtonimageButton"/>
+
+    <TextView
+        android:id="@+id/label_ISBN_add_new_book_activity_layout_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:text="@string/ISBN"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/scan_add_book_layout_imageButtonimageButton"
+
+        android:gravity="center_vertical"        />
+    <!--android:layout_alignBottom="@id/ISBN_add_new_book_activity_layout_editText"-->
+
+
+    <EditText
+        android:id="@+id/ISBN_add_new_book_activity_layout_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:queryHint="@string/ISBN"
+        android:layout_below="@id/scan_add_book_layout_imageButtonimageButton"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/label_ISBN_add_new_book_activity_layout_textView"
+        android:layout_alignBottom="@id/label_ISBN_add_new_book_activity_layout_textView"
+        />
+
+    <TextView
+        android:id="@+id/label_title_add_new_book_activity_layout_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:text="@string/Title"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/label_ISBN_add_new_book_activity_layout_textView"
+
+        android:gravity="center_vertical"        />
+    <!--android:layout_alignBottom="@id/ISBN_add_new_book_activity_layout_editText"-->
+
+
+    <EditText
+        android:id="@+id/title_add_new_book_activity_layout_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:queryHint="@string/Title"
+        android:layout_below="@id/ISBN_add_new_book_activity_layout_editText"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/label_title_add_new_book_activity_layout_textView"
+        android:layout_alignBottom="@id/label_title_add_new_book_activity_layout_textView"
+        />
+
+    <TextView
+        android:id="@+id/label_author_add_new_book_activity_layout_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:text="@string/Author"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/label_title_add_new_book_activity_layout_textView"
+
+        android:gravity="center_vertical"        />
+    <!--android:layout_alignBottom="@id/ISBN_add_new_book_activity_layout_editText"-->
+
+
+    <EditText
+        android:id="@+id/author_add_new_book_layout_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:queryHint="@string/Author"
+        android:layout_below="@id/title_add_new_book_activity_layout_editText"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/label_author_add_new_book_activity_layout_textView"
+        android:layout_alignBottom="@id/label_author_add_new_book_activity_layout_textView"
+        />
+
+    <TextView
+        android:id="@+id/label_publisher_add_new_book_activity_layout_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:text="@string/Publisher"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/label_author_add_new_book_activity_layout_textView"
+
+        android:gravity="center_vertical"        />
+
+
+    <EditText
+        android:id="@+id/publisher_add_new_book_activity_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:queryHint="@string/Author"
+        android:layout_below="@id/author_add_new_book_layout_editText"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/label_publisher_add_new_book_activity_layout_textView"
+        android:layout_alignBottom="@id/label_publisher_add_new_book_activity_layout_textView"
+        />
+
+    <TextView
+        android:id="@+id/label_description_add_new_book_activity_layout_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="50sp"
+        android:text="@string/Description"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_below="@id/label_publisher_add_new_book_activity_layout_textView"
+
+        android:gravity="center_vertical"        />
+    
+
+
+    <EditText
+        android:id="@+id/description_add_new_book_activity_editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:queryHint="@string/Description"
+        android:layout_below="@id/publisher_add_new_book_activity_editText"
+        android:layout_marginLeft="8dp"
+        android:layout_toRightOf="@id/label_description_add_new_book_activity_layout_textView"
+        android:layout_alignBottom="@id/label_description_add_new_book_activity_layout_textView"
+        />
+
+
+
+
+    <Button
+        android:id="@+id/cancel_button_in_add_new_book_activity_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button_Cancel_text"
+        android:layout_below="@id/label_description_add_new_book_activity_layout_textView"
+        android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:id="@+id/ok_submit_in_add_new_book_activity_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/button_add_book_text"
+        android:layout_below="@id/label_description_add_new_book_activity_layout_textView"
+        android:layout_centerHorizontal="true"
+        android:layout_toRightOf="@id/cancel_button_in_add_new_book_activity_layout"/>
+
+
+</RelativeLayout>

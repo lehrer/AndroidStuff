@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Books At Home</string>
+    <string name="No_results_found" translatable="false">Geen resultaten gevonden</string>
+    <string name="Publisher">Uitgeverij</string>
+    <string name="Subject">Onderwerp</string>
+    <string name="Title">Titel</string>
+    <string name="action_settings">Instellingen</string>
+    <string name="add_to_DB">Voeg toe aan DB</string>
+    <string name="author">Auteur</string>
+    <string name="book_search_layout_search_button">Zoek</string>
+    <string name="book_search_view_dialog_textView_string"></string>
+    <string name="book_search_view_editText_hint_string">Voer hier uw zoekwoorden in</string>
+    <string name="book_search_view_textView_string">1 - Maak aub een selectie uit dit dropdown menu</string>
+    <string name="button_Cancel_text">Annuleer</string>
+    <string name="button_add_book_text">Voeg boek toe</string>
+    <string name="copy_to_DB">Kopieer naar lokale DB</string>
+    <string name="db"></string>
+    <string name="delete_from_DB">Verwijder van lokale DB</string>
+    <string name="description">Beschrijving</string>
+    <string name="ebook"></string>
+    <string name="empty_book_search_view_textView">U moet iets intypen om te kunnen zoeken!</string>
+    <string name="etc_after_book_description">Klik hier voor meer...</string>
+    <string name="hardcover"></string>
+    <string name="has_been_deleted">Uw boek (%1$s) werd verwijderd</string>
+    <string name="has_not_been_deleted">Uw boek (%1$s) werd NIET verwijderd</string>
+    <string name="nav_all_books">Toon al uw boeken</string>
+    <string name="nav_search_google_books">Zoek boeken via Google Books</string>
+    <string name="nav_search_google_books_with_barcode_scanner">Zoek via Barcode</string>
+    <string name="nav_search_page">Zoek boeken via Google</string>
+    <string name="no_author_found"></string>
+    <string name="title">titel</string>
+    <string name="total_results">Totaal aantal resultaten van</string>
+    <string name="welcome_message">Welkom en geniet van deze app!</string>
+    <string name="subject">onderwerp</string>
+    <string name="sorry_no_google_books_description">Geen beschrijving beschikbaar</string>
+    <string name="sold">verkocht</string>
+    <string name="short_description">Korte beschrijving</string>
+    <string name="localDB">Persoonlijke boeken bibliotheek</string>
+    <string name="lost">verloren</string>
+    <string name="Description">Beschrijving:</string>
+    <string name="Author_s">Auteur(s):</string>
+    <string name="Author">Auteur</string>
+    <string name="ISBN">ISBN</string>
+</resources>
